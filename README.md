@@ -121,6 +121,15 @@ This validation confirmed that incremental updates were processed accurately.
 
 <img width="1890" height="608" alt="Screen Shot 2026-02-02 at 7 10 37 PM" src="https://github.com/user-attachments/assets/d7e01b02-c3a3-46b7-af9f-505d4a8c8b92" />
 
+### Step 10: Clean Up Import Set Data
+After validating the incremental updates, the Import Set staging records were reviewed.
+
+The Cleanup action was used to remove processed staging data associated with the HHD import. This ensured the Import Set table remained clean and prevented unnecessary retention of historical staging records.
+
+This cleanup confirmed completion of the import lifecycle and aligned with data management best practices.
+
+<img width="1890" height="396" alt="Screen Shot 2026-02-02 at 7 18 20 PM" src="https://github.com/user-attachments/assets/c9f0e527-6161-4aa1-ae06-32d64f11af89" />
+
 ## Lessons Learned
 - Import Sets support both initial and incremental data loads
 - Coalescing prevents duplicate records during updates
