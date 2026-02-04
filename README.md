@@ -1,4 +1,4 @@
-# HHD Data Import & Validation Using Import Sets
+# Data Import & Validation Using Import Sets
 
 ## Overview
 This repository demonstrates how Holographic Handheld Device (HHD) records were imported into ServiceNow using Import Sets and Transform Maps. The focus is on loading external data, validating imported records, performing incremental updates, and preparing device information for operational use within the HHD application.
